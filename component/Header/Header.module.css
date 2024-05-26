@@ -1,0 +1,22 @@
+.headercontainer {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+}
+.headercontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headercontent h1 {
+  color: #fff;
+  font-weight: 600;
+  padding: 4px 6px;
+  background-color: #d1390a;
+  border-radius: 15px;
+}
+
+.header-content h3 {
+  color: #fff;
+  font-weight: 400;
+}

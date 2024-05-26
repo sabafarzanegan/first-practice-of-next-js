@@ -1,0 +1,13 @@
+.image {
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 10px;
+  height: 400px;
+}
+.title {
+  padding: 20px;
+  font-weight: 600;
+}
+.content {
+  padding: 20px;
+}

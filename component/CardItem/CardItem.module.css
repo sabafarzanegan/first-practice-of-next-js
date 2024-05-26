@@ -1,0 +1,20 @@
+.cardcontainer {
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image {
+  width: 100%;
+}
+.title {
+  text-align: center;
+  margin: 10px;
+}
+.topcard {
+  width: 100%;
+}
+.topcard image {
+  border-radius: 20px;
+}
+.date {
+}
