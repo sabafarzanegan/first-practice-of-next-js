@@ -1,11 +1,15 @@
 import React from "react";
 import { Data } from "@/data";
 import classes from "./detailpage.module.css";
+import { notFound } from "next/navigation";
 
 function Detailpage({ params }) {
   const newsId = params.id;
-  console.log(newsId);
+
   const newsItem = Data.find((item) => item.id === newsId);
+  if (!newsItem) {
+    notFound();
+  }
   return (
     <>
       <img
